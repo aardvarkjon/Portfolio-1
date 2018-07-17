@@ -1,0 +1,26 @@
+body{
+	max-width:700px;
+	width:80%;
+	margin: 20px auto;
+	border:20px solid #bdc3c7;
+	padding: 20px;
+
+}
+.indent{
+	border-left: 5px solid #bdc3c7;
+	padding-left:5px;
+	margin-left:5px;
+}
+h2{
+	color:#3498DB;
+	font-size: 15px;
+
+}
+.nav{
+	padding-left: 90%;
+}
+.linebreak{
+	border-top: 1px solid #bdc3c7;
+	padding-top: 20px;
+}
+
