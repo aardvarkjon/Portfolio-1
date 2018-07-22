@@ -1,0 +1,43 @@
+
+body{
+background: #525252;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3d72b4, #525252);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3d72b4, #525252); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+	max-width: 500px;
+	margin: 50% auto;
+
+
+}
+#inner{
+	max-width:500px;
+	margin: 0 auto;
+	height:400px;
+	background:rgba(15,15,15,0.1);
+}
+img{
+	width:500px;
+	height:350px;
+
+}
+#next{
+	float:right;
+}
+button{
+border:none;
+outline:none;
+margin-top:15px;
+background:none;
+color:white;
+}
+.btn:hover{
+	outline:rgba(5,5,5,0.3) solid 1px;
+	height: 2em;
+	cursor: pointer;
+
+}
+h1{
+	text-align:center;
+}
