@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Texas Sales Tax Calculator</title>
+	<link rel="stylesheet" type="text/css" href="taxes.css">
+</head>
+<body>
+	<div id="container">
+		
+		<div id="inner">
+		<h1>Sales Tax Calculator</h1>
+						<form>
+			 <p>Select your state:</p> <select id = "selState">
+   <option value = "1.0400">Alabama</option>
+   <option value = "1.0000">Alaska</option>
+   <option value = "1.0560">Arizona</option>
+   <option value = "1.0650">Arkansas</option>
+   <option value = "1.0725">California</option>
+   <option value = "1.029">Colorado</option>
+   <option value = "1.0635">Conneticut</option>
+   <option value = "1.0000">Deleware</option>
+   <option value = "1.0600">Florida</option>
+   <option value = "1.0400">Georgia</option>
+   <option value = "1.0400">Hawaii</option>
+   <option value = "1.0600">Idaho</option>
+   <option value = "1.0625">Illinois</option>
+	<option value = "1.0700">Indiana</option>
+	<option value = "1.0600">Iowa</option>
+	<option value = "1.0650">Kansas</option>
+	<option value = "1.0600">Kentucky</option>
+	<option value = "1.0500">Louisiana</option>
+	<option value = "1.0550">Maine</option>
+	<option value = "1.0600">Maryland</option>
+	<option value = "1.0625">Massachusetts</option>
+	<option value = "1.0600">Michigan</option>
+	<option value = "1.06875">Minnesota</option>
+	<option value = "1.0700">Mississippi</option>
+	<option value = "1.04225">Missouri</option>
+	<option value = "1.0000">Montana</option>
+	<option value = "1.0550">Nebraska</option>
+	<option value = "1.0685">Nevada</option>
+	<option value = "1.0000">New Hampshire</option>
+	<option value = "1.06625">New Jersey</option>
+	<option value = "1.05125">New Mexico</option>
+	<option value = "1.0400">New York</option>
+	<option value = "1.0475">North Carolina</option>
+	<option value = "1.0500">North Dakota</option>
+	<option value = "1.0575">Ohio</option>
+	<option value = "1.0450">Oklahoma</option>
+	<option value = "1.000">Oregon</option>
+	<option value = "1.0600">Pennsylvania</option>
+	<option value = "1.0700">Rhode Island</option>
+	<option value = "1.0600">South Carolina</option>
+	<option value = "1.0450">South Dakota</option>
+	<option value = "1.0700">Tennessee</option>
+	<option value = "1.0625">Texas</option>
+	<option value = "1.0595">Utah</option>
+	<option value = "1.0600">Vermont</option>
+	<option value = "1.0530">Virginia</option>
+	<option value = "1.0650">Washington</option>
+	<option value = "1.0600">West Virginia</option>
+	<option value = "1.0500">Wisconsin</option>
+	<option value = "1.0400">Wyoming</option>
+  </select>
+</form>
+			<p>Cost if Item:</p> <input id="text" type="text" >
+			
+			<p>Clear current price: <input id="checkBox" type="checkbox" checked></p>
+			
+			<button id="submit">Calculate</button>
+		
+
+		<p>Your total is: $<span id="answer"></span></p>
+
+<p>Disclaimer: This is based solely off of State sales tax and does not take local taxes into account. This is the local state tax based off of <a href="http://www.taxfoundation.org"> taxfoundation.org</a>'s database. Because local taxes may vary, this may not reflect actualy final pricing.</p>
+	</div>
+
+
+	</div>
+	<script type="text/javascript" src="taxes.js"></script>
+</body>
+</html>
