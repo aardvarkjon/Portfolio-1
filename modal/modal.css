@@ -1,0 +1,57 @@
+.container{
+	max-width:500px;
+	margin:0 auto;
+}
+
+.modalOff {
+	display:none;
+
+}
+.modalOn{
+	width:300px;
+	height:400px;
+	position: absolute;
+	margin-left: 5px;
+	margin-top:-405px;
+	
+}
+.image{
+	width:75px;
+	height: 100px;
+	position: absolute;
+	margin:1%;
+}
+.image:hover{
+	cursor: zoom-in;
+}
+.imgCon{
+	width:75px;
+	height:100px;
+	display:inline-block;
+}
+
+.clickModalOn{
+	display:block;
+	position: fixed;
+	margin: 0 auto;
+	width: 80%;
+	height: 95%;
+}
+.clickModalOn:hover{
+	cursor: zoom-out;
+}
+
+.clickModalBackgroundOn{
+	
+	position: fixed;
+	z-index: 1;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color: rgba(0,0,0,0.2);
+	padding-left: 10%;
+
+}
+
