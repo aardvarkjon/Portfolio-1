@@ -15,7 +15,7 @@
 
 
 
-
+if($( window ).width() >= 700){
 $(".image").mouseover(
 	function (event){
 	$(".modal").toggleClass("modalOn");
@@ -36,7 +36,7 @@ $(".image").mousemove(function(event){
 	$(".modalOn").css({left:event.pageX, top:event.pageY})
 	
 })
-
+} else{
 $(".image").click(function (){
 	$(".clickModal").toggleClass("clickModalOn");
 	$(".click").toggleClass("clickModalBackgroundOn");
@@ -47,3 +47,4 @@ $(".clickModal").click(function(){
 	$(".clickModal").toggleClass("clickModalOn");
 	$(".clickModal").attr("src", "")
 })
+}
