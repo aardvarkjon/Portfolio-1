@@ -19,18 +19,6 @@ $(".image").mousemove(function(event){
 	$(".modalOn").css({left:event.pageX, top:event.pageY})
 	
 })
-
-$(".image").click(function (){
-	$(".clickModal").toggleClass("clickModalOn");
-	$(".click").toggleClass("clickModalBackgroundOn");
-	$(".clickModal").attr("src", $(this).attr("src"))
-})
-$(".clickModal").click(function(){
-	$(".click").toggleClass("clickModalBackgroundOn");
-	$(".clickModal").toggleClass("clickModalOn");
-	$(".clickModal").attr("src", "")
-})
-	
 } else {
 $(".image").click(function (){
 	$(".clickModal").toggleClass("clickModalOn");
