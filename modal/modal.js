@@ -1,21 +1,7 @@
-// var modal = document.querySelectorAll(".modal");
-// var image = document.querySelectorAll(".image");
-
-
-// function enlarge(){
-// 	image.classList.toggle("modalOff");
-// 	modal.classList.toggle("modalOn");
-// }
-// for(i = 0; i < image.length; i++){
-// image[i].addEventListener("mouseenter", enlarge);
-// }
-// for(i = 0; i < modal.length; i++){
-// modal[i].addEventListener("mouseleave", enlarge);
-// }
 
 
 
-if($( window ).width() >= 700){
+if($( window ).width() >= 600){
 $(".image").mouseover(
 	function (event){
 	$(".modal").toggleClass("modalOn");
