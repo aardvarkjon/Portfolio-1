@@ -1,4 +1,4 @@
-if($( window ).width() >= 700){
+if($( window ).width() >= 900){
 $(".image").mouseover(
 	function (event){
 	$(".modal").toggleClass("modalOn");
